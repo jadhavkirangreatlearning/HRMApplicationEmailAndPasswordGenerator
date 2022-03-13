@@ -28,8 +28,8 @@ public class EmployeeCredentialService {
 		return password;
 	}
 
-	public String generatedEmail(Employee employee, String generatedEmail, String department) {
-		return employee.getFirstName() + employee.getLastName() + "@" + generatedEmail + ".cs.com";
+	public String generatedEmail(String firstName, String lastName, String department) {
+		return firstName+lastName + "@" + department + ".greatlearning.com";
 
 	}
 
