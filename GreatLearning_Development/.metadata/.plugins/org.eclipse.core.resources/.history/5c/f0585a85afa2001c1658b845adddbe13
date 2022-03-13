@@ -1,0 +1,33 @@
+package com.greatlearning.coreexception;
+
+import java.sql.SQLException;
+
+class Company {
+
+}
+
+class Product extends Company {
+
+}
+
+public class ExceptionScenario {
+
+	public static void main(String[] args) throws SQLException {
+
+		try {
+			System.exit(0);
+
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+
+		finally {
+
+			System.out.println("\n Always Execute");
+
+		}
+
+	}
+
+}

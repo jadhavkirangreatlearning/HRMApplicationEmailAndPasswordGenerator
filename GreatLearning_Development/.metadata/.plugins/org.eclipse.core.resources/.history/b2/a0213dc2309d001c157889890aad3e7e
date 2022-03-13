@@ -1,0 +1,18 @@
+package com.greatlearning.core;
+class Product
+{
+	
+}
+
+class Employee
+{
+	
+}
+
+public class Welcome {
+	public static void main(String args[]) {
+		System.out.println("Welcome to Great Learning!!!");
+
+	}
+
+}

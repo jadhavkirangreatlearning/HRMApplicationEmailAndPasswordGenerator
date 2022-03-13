@@ -1,0 +1,12 @@
+package com.greatlearning.coreexception;
+
+public class ExceptionBasics {
+	public static void main(String[] args) {
+
+		String companyName="GreatLearning";
+		
+		System.out.println(companyName.length());
+
+		System.out.println("WELCOME TO GREAT LEARNING");
+	}
+}

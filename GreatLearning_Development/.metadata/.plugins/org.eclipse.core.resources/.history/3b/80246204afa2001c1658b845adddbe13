@@ -1,0 +1,40 @@
+package com.greatlearning.coreexception;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+public class ExceptionScenario {
+	
+	public static void main(String[] args) throws SQLException {
+		
+		Connection connection=null;
+		
+		
+		try {
+			
+			Class.forName("com.mysql.jdbc.Driver");
+			
+			connection= DriverManager.getConnection("jdbc:mysql://localhost:3306/db_name", "root", "root");
+			
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		
+		finally {
+			
+			System.out.println("\n Always Execute");
+			
+			connection.close();
+			
+		}
+		
+		
+		
+	}
+
+}

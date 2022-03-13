@@ -1,0 +1,9 @@
+package com.greatlearning.service;
+
+public class OTPTest {
+
+	public static void main(String[] args) {
+		System.out.println(Math.random()*9000+1000);
+	}
+
+}

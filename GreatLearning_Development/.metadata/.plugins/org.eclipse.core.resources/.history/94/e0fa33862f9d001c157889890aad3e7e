@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.greatlearning.core;
+
+/**
+ * @author Kiran Jadhav
+ *
+ */
+public class Welcome {
+	/*
+	 * This program for Hello World Application
+	 */
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

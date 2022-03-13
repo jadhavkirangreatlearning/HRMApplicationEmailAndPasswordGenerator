@@ -1,0 +1,9 @@
+package com.greatlearning.finance;
+
+public class CoreBankSystem {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

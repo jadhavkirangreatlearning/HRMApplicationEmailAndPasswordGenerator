@@ -1,0 +1,5 @@
+package com.greatlearning.core;
+
+public class Welcome {
+
+}

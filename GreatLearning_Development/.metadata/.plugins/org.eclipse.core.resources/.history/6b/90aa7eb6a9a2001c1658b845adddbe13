@@ -1,0 +1,11 @@
+package com.greatlearning.coreexception;
+
+public class ExceptionBasics {
+	public static void main(String[] args) {
+
+		int result=10/0;
+		
+		
+		System.out.println("WELCOME TO GREAT LEARNING");
+	}
+}

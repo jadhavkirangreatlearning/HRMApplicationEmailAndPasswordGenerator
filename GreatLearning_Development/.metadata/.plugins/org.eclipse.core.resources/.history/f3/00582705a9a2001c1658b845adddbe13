@@ -1,0 +1,7 @@
+package com.greatlearning.coreexception;
+
+public class ExceptionBasics {
+	public static void main(String[] args) {
+
+	}
+}

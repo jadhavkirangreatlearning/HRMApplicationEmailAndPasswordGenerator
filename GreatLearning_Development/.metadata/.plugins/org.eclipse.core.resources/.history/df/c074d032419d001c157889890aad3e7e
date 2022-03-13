@@ -1,0 +1,14 @@
+package com.greatlearning.corecollection;
+class Product
+{
+	private int productId;
+	
+	private String productName;
+	
+	private double productPrice;
+	
+	
+}
+public class ECommerceApplication {
+
+}

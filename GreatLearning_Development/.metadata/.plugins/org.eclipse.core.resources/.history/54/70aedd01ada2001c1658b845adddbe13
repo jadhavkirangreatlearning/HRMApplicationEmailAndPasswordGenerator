@@ -1,0 +1,5 @@
+package com.greatlearning.coreexception;
+
+public class AgeInvalidException {
+
+}

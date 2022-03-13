@@ -1,0 +1,25 @@
+package com.csi.service;
+
+import com.csi.model.Employee;
+
+public class EmployeeCredentialService {
+
+	public char[] generatedPassword() {
+
+		char[] password = new char[8];
+
+		return password;
+	}
+
+	public String generatedEmail(Employee employee, String generatedEmail, String department) {
+		return employee.getFirstName() + employee.getLastName() + "@" + generatedEmail + ".cs.com";
+
+	}
+
+	public void showCredentials(Employee employee, String email, String password) {
+		System.out.println("\n Employee: " + employee.getFirstName());
+		System.out.println("\n Email: " + email);
+		System.out.println("\n Password: " + password);
+	}
+
+}

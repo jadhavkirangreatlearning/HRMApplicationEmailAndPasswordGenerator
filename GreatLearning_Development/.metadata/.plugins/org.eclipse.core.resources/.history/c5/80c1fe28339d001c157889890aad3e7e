@@ -1,0 +1,40 @@
+package com.greatlearning.finance;
+
+import java.util.Scanner;
+
+public class CoreBankSystem {
+	
+	public static void main(String[] args) {
+		
+		String customerAccountNumber="12345";
+		
+		String customerPassword="pass";
+		
+		int accountBalance=1000;
+		
+		int amount, choice, otp, generatedOTP;
+		
+		Scanner scanner = new Scanner(System.in);
+		boolean flag;
+		
+		do {
+			
+			System.out.println("\n Please enter Customer Account Number And Password: ");
+			
+			String accNumber=scanner.nextLine();
+			String custPass= scanner.nextLine();
+			
+			if(customerAccountNumber.equals(accNumber) && customerPassword.equals(custPass))
+			{
+				System.out.println("\n Welcome to Indian Bank!!!");
+				flag=false;
+				
+			}else {
+				System.out.println("\n Invalid Credentials, Please try again!!!!");
+				flag=true;
+			}
+			
+		}while(flag);
+	}
+
+}

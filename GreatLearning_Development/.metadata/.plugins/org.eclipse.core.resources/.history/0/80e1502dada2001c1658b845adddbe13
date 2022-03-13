@@ -1,0 +1,26 @@
+package com.greatlearning.coreexception;
+
+public class ExceptionBasics {
+	public static void main(String[] args) {
+
+		try {
+			int result = 10 / 0;
+			System.out.println(result);
+		} catch (NullPointerException | ArithmeticException | ArrayIndexOutOfBoundsException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+
+		}
+
+		isAgeEligibleforToDoVote(17);
+
+	}
+
+	static void isAgeEligibleforToDoVote(int age) {
+		if (age < 18) {
+			throw new AgeInvalidException("Age invalid to do vote");
+		} else {
+			System.out.println("Eligible for vote");
+		}
+	}
+}

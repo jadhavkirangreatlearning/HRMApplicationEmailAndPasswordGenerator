@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.csi.model&apos; to &apos;com.greatlearning.model&apos;&#x0D;&#x0A;- Original project: &apos;IndianBankApplication&apos;&#x0D;&#x0A;- Original element: &apos;IndianBankApplication/src/main/java/com.csi.model&apos;&#x0D;&#x0A;- Renamed element: &apos;IndianBankApplication/src/main/java/com.greatlearning.model&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.csi.model&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.csi.model" name="com.greatlearning.model" qualified="false" references="true" stamp="1646563539778" textual="false" version="1.0"/>
+</session>

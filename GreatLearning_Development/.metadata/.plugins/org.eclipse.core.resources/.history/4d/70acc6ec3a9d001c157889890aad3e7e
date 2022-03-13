@@ -1,0 +1,18 @@
+package com.greatlearning.model;
+
+public class Customer {
+
+	private String custAccountNumber;
+
+	private String custPassword;
+
+	public Customer(String custAccountNumber, String custPassword) {
+		super();
+		this.custAccountNumber = custAccountNumber;
+		this.custPassword = custPassword;
+	}
+	
+	
+	
+
+}

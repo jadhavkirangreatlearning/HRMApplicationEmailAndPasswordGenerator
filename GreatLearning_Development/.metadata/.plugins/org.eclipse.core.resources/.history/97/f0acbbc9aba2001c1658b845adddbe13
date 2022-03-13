@@ -1,0 +1,19 @@
+package com.greatlearning.coreexception;
+
+public class ExceptionBasics {
+	public static void main(String[] args) {
+
+		try {
+			String companyName=null;
+			
+			System.out.println(companyName.length());
+			
+		} catch (NullPointerException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			
+		}
+
+		System.out.println("WELCOME TO GREAT LEARNING");
+	}
+}
